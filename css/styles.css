@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padi: 0;
     background-color: #FFF8F0;
     color: #3E2723;
     font-family: sans-serif;
@@ -46,4 +48,37 @@ img {
 li {
     margin-bottom: 5px;
     font-style: italic;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(160, 119, 119);
+    height: 50px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    width: 50px;
+    height: 50px;
+    background-color: #434c80;
+    border-radius: 50%;
+}
+
+.blank {
+    display: flex;
+    justify-content: center;
+}
+
+.main-page {
+    width: 600px;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
